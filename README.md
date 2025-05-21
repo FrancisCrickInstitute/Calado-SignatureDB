@@ -1,31 +1,45 @@
 # Calado-SignatureDB
 
-## Cancers
-
-| NAME                           | DESCRIPTION | N-GENES | DATASET | ORGANISM | DATA TYPE | FILE | DOI | NOTES | 
-|:-------------------------------|:------------|:--------|:--------|:---------|:----------|:-----|:----|:------|
-| DHIT                           | DHIT signature in BL with MYC and BCL2 rearrangements      | 104 | Reddy_2017 | Human | RNAseq | N/A | 10.1200/JCO.18.01583 | N/A |
-| DHIT_DOWN                      | DHTT signature in BL with MYC and BCL2 rearrangements Down | 56  | Reddy_2017 | Human | RNAseq | N/A | 10.1200/JCO.18.01583 | N/A |
-| DHIT_UP                        | DHIT signature in BL with MYC and BCL2 rearrangements Up   | 48  | Reddy_2017 | Human | RNAseq | N/A | 10.1200/JCO.18.01583 | N/A |
-| LYMPH2CX_DLBCL_ABC             | NanoString Lymph2Cx DLBCL-ABC panel | 7 | Lenz_2008 (GSE10846) | Human | Microarray | N/A | 10.1056/NEJMoa0802885; 10.1182/blood-2013-11-536433 | N/A |
-| LYMPH2CX_DLBCL_GCB             | NanoString Lymph2Cx DLBCL-GCB panel | 8 | Lenz_2008 (GSE10846) | Human | Microarray | N/A | 10.1056/NEJMoa0802885; 10.1182/blood-2013-11-536433 | N/A |
-| MHG_vs_BL                      | MHG vs BL | 5649 | REMoDL-B | Human | Microarray | Sha_et_al_2018_JCO.xlsx | 10.1200/JCO.18.01314 | filtered by `padj` < 0.05 |
-| MHG_vs_BL_DOWN                 | MHG vs BL Down | 2483 | REMoDL-B | Human | Microarray | Sha_et_al_2018_JCO.xlsx | 10.1200/JCO.18.01314 | filtered by `padj` < 0.05 | 
-| MHG_vs_BL_UP                   | MHG vs BL Up | 3166 | REMoDL-B | Human | Microarray | Sha_et_al_2018_JCO.xlsx | 10.1200/JCO.18.01314 |filtered by `padj` < 0.05 | 
-| MHG_vs_GCB                     | MHG vs DLBCL-GCB      | 3986 | REMoDL-B | Human | Microarray | Sha_et_al_2018_JCO.xlsx | 10.1200/JCO.18.01314 | filtered by `padj` < 0.05 | 
-| MHG_vs_GCB_DOWN                | MHG vs DLBCL-GCB Down | 2202 | REMoDL-B | Human | Microarray | Sha_et_al_2018_JCO.xlsx | 10.1200/JCO.18.01314 | filtered by `padj` < 0.05 | 
-| MHG_vs_GCB_UP                  | MHG vs DLBCL-GCB Up   | 1784 | REMoDL-B | Human | Microarray | Sha_et_al_2018_JCO.xlsx | 10.1200/JCO.18.01314 | filtered by `padj` < 0.05 | 
-| MYCn_MHG_vs_GCB                | MHG vs DLBCL-GCB with normal MYC      | 54 | REMoDL-B | Human | Microarray | Sha_et_al_2018_JCO.xlsx | 10.1200/JCO.18.01314 | filtered by `padj` < 0.05 | 
-| MYCn_vs_GCB_DOWN               | MHG vs DLBCL-GCB with normal MYC Down | 43 | REMoDL-B | Human | Microarray | Sha_et_al_2018_JCO.xlsx | 10.1200/JCO.18.01314 | filtered by `padj` < 0.05 | 
-| MYCn_vs_GCB_UP                 | MHG vs DLBCL-GCB with normal MYC Up   | 11 | REMoDL-B | Human | Microarray | Sha_et_al_2018_JCO.xlsx | 10.1200/JCO.18.01314 | filtered by `padj` < 0.05 | 
-| MYCr_MHG_vs_GCB                | MHG vs DLBCL-GCB with MYC rearrangement      | 1392 | REMoDL-B | Human | Microarray | Sha_et_al_2018_JCO.xlsx | 10.1200/JCO.18.01314 | filtered by `padj` < 0.05 | 
-| MYCr_MHG_vs_GCB_DOWN           | MHG vs DLBCL-GCB with MYC rearrangement Down | 1010 | REMoDL-B | Human | Microarray | Sha_et_al_2018_JCO.xlsx | 10.1200/JCO.18.01314 | filtered by `padj` < 0.05 | 
-| MYCr_MHG_vs_GCB_UP             | MHG vs DLBCL-GCB with MYC rearrangement Up   | 382 | REMoDL-B | Human | Microarray | Sha_et_al_2018_JCO.xlsx |  10.1200/JCO.18.01314 | filtered by `padj` < 0.05 | 
-| REDDY_DLBCL_ABC                | DLBCL-ABC signature from Reddy et al. | 11 | Reddy_2017 | Human | RNAseq | N/A | 10.1016/j.cell.2017.09.027 | N/A | 
-| REDDY_DLBCL_GCB                | DLBCL-GCB signature from Reddy et al. | 8  | Reddy_2017 | Human | RNAseq | N/A | 10.1016/j.cell.2017.09.027 | N/A | 
+Gene Signature Collection used in Calado-Lab
 
 
-## Signature From Lab
-|  |
-|  |
-|  |
+## Data Availability
+Data is available on both [DropBox](https://www.dropbox.com/scl/fo/s8c1slvqsb4vgvtt8kyze/ALm1fkTMvmk3M4wYkKN1AVY?rlkey=eatreddt37xe9mqknw9dm321a&st=o09cb0zc&dl=0) and NEMO at `/nemo/lab/caladod/working/Shared/Calado-SignatureDB`. Please <b>DO NOT</b> share this data externally.
+
+Relevant Directories:
+```
+Calado-SignatureDB/
+├── releases/v0.0.2                   # Official SignatureDB release versions
+|   ├── human.gmt                          ## All human gene sets compiled, stored in GMT file
+|   └── mouse.gmt                          ## All mouse gene sets compiled, stored in GMT file
+├── human-external/gmt/                    ## Individual human GMT files from external sources
+├── human-internal/gmt/                    ## Individual human GMT files from lab
+├── mouse-external/gmt/                    ## Individual mouse GMT files from external sources
+└── mouse-internal/gmt/                    ## Individual mouse GMT files from lab
+```
+
+## Suffix Dictionary
+`_UP` = all upregulated genes  
+`_DN` = all downregulated genes  
+`_TOP50` = top 50 upregulated genes  
+
+## Collapsed Index
+| GENE SET FILE           | VERSION | ORG SOURCE     | CONTEXT  | DESCRIPTION                                                | SOURCE DATA   | MOL        | DOI                                                 | NOTES                                                         |
+|:------------------------|:--------|:--------------:|:--------:|:-----------------------------------------------------------|:--------------|:-----------|:----------------------------------------------------|:-------------------------------------------------------------|
+| SHA_MHG                 | v0.0.0  | human-external | cancer   | MHG signatures                                             | REMoDL-B      | RNA        | 10.1200/JCO.18.01314                                | filtered by `padj` < 0.05|
+| ENNISHI_DHIT            | v0.0.0  | human-external | cancer   | DHIT signature in BL with MYC and BCL2 rearrangements      | Reddy_2017    | RNA        | 10.1200/JCO.18.01583                                | N/A|
+| LYMPH2CX_DLBCL          | v0.0.0  | human-external | cancer   | NanoString Lymph2Cx DLBCL-ABC/GCB panel                    | Lenz_2008     | RNA        | 10.1056/NEJMoa0802885; 10.1182/blood-2013-11-536433 | N/A|
+| REDDY_DLBCL             | v0.0.0  | human-external | cancer   | DLBCL-ABC/GCB signature from Reddy et al.                  | Reddy_2017    | RNA        | 10.1016/j.cell.2017.09.027                          | N/A|
+| ATKINSO_CPC39           | v0.0.0  | human-internal | cancer   | Common progenitor cell gene signature                      | Silva_2018    | RNA        | N/A                                                 | N/A|
+| ATKINSO_CPC_CLUSTER     | v0.0.0  | mouse-internal | cancer   | Cluster signatures                                         | SC23423       | RNA        | N/A                                                 | `padj` < 0.01, `avg_log2FC` > 0.5, `min.pct` > 0.1           |
+| CHENT_MYC_CLUSTER       | v0.0.0  | mouse-internal | cancer   | Cluster signatures                                         | SC24124       | RNA        | N/A                                                 | `padj` < 0.05, `avg_log2FC` > 0.5, `min.pct` > 0.1           |
+| CHENT_MYC_GENOTYPE      | v0.0.0  | mouse-internal | cancer   | Genotype signatures                                        | SC24124       | RNA        | N/A                                                 | `padj` < 0.05, `avg_log2FC` > 0.5, `min.pct` > 0.1           |
+| CHENT_NOMYC_CLUSTER     | v0.0.0  | mouse-internal | cancer   | Cluster signatures without MYC targets                     | SC24124       | RNA        | N/A                                                 | remove genes from NAKAGAWAR_MYC_RN_MYC_PROMOTER, `padj` < 0.05, `avg_log2FC` > 0.5, `min.pct` > 0.1 |
+| NAKAGAWAR_MYC           | v0.0.0  | mouse-internal | cancer   | MYC target genes with CHIPseq                              |               | RNA        | 10.1038/nature13537                                 | N/A |
+| XUA_EFPC                | v0.0.0  | mouse-internal | celltype | Extrafollicular plasma cell signature                      | CRA004574     | RNA        | 10.1038/s41590-022-01397-7                          | `mu_freq` > 0.0075, `padj` < 0.05, `avg_log2FC` > 0.5, `min.pct` > 0.1 |
+
+## Detailed Index
+Please find relevant gene set information in [mouse](releases/v0.0.2/mouse_index.txt) and [human](releases/v0.0.2/human_index.txt) gene set index files.
+
+## Notes
+All cross-species gene symbol conversion are performed with 1 to 1 mapping by [hungms/strpip](https://github.com/hungms/strpip) with version 0.1.3

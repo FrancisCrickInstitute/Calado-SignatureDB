@@ -26,20 +26,20 @@ Calado-SignatureDB/
 ## Collapsed Index
 | GENE SET FILE           | VERSION | ORG SOURCE     | CONTEXT  | DESCRIPTION                                                | SOURCE DATA   | MOL        | DOI                                                 | NOTES                                                         |
 |:------------------------|:--------|:--------------:|:--------:|:-----------------------------------------------------------|:--------------|:-----------|:----------------------------------------------------|:-------------------------------------------------------------|
-| SHA_MHG                 | v0.0.0  | human-external | cancer   | MHG signatures                                             | REMoDL-B      | RNA        | 10.1200/JCO.18.01314                                | filtered by `padj` < 0.05|
-| ENNISHI_DHIT            | v0.0.0  | human-external | cancer   | DHIT signature in BL with MYC and BCL2 rearrangements      | Reddy_2017    | RNA        | 10.1200/JCO.18.01583                                | N/A|
-| LYMPH2CX_DLBCL          | v0.0.0  | human-external | cancer   | NanoString Lymph2Cx DLBCL-ABC/GCB panel                    | Lenz_2008     | RNA        | 10.1056/NEJMoa0802885; 10.1182/blood-2013-11-536433 | N/A|
-| REDDY_DLBCL             | v0.0.0  | human-external | cancer   | DLBCL-ABC/GCB signature from Reddy et al.                  | Reddy_2017    | RNA        | 10.1016/j.cell.2017.09.027                          | N/A|
-| ATKINSO_CPC39           | v0.0.0  | human-internal | cancer   | Common progenitor cell gene signature                      | Silva_2018    | RNA        | N/A                                                 | N/A|
-| ATKINSO_CPC_CLUSTER     | v0.0.0  | mouse-internal | cancer   | Cluster signatures                                         | SC23423       | RNA        | N/A                                                 | `padj` < 0.01, `avg_log2FC` > 0.5, `min.pct` > 0.1           |
-| CHENT_MYC_CLUSTER       | v0.0.0  | mouse-internal | cancer   | Cluster signatures                                         | SC24124       | RNA        | N/A                                                 | `padj` < 0.05, `avg_log2FC` > 0.5, `min.pct` > 0.1           |
-| CHENT_MYC_GENOTYPE      | v0.0.0  | mouse-internal | cancer   | Genotype signatures                                        | SC24124       | RNA        | N/A                                                 | `padj` < 0.05, `avg_log2FC` > 0.5, `min.pct` > 0.1           |
-| CHENT_NOMYC_CLUSTER     | v0.0.0  | mouse-internal | cancer   | Cluster signatures without MYC targets                     | SC24124       | RNA        | N/A                                                 | remove genes from NAKAGAWAR_MYC_RN_MYC_PROMOTER, `padj` < 0.05, `avg_log2FC` > 0.5, `min.pct` > 0.1 |
-| NAKAGAWAR_MYC           | v0.0.0  | mouse-internal | cancer   | MYC target genes with CHIPseq                              |               | RNA        | 10.1038/nature13537                                 | N/A |
-| XUA_EFPC                | v0.0.0  | mouse-internal | celltype | Extrafollicular plasma cell signature                      | CRA004574     | RNA        | 10.1038/s41590-022-01397-7                          | `mu_freq` > 0.0075, `padj` < 0.05, `avg_log2FC` > 0.5, `min.pct` > 0.1 |
+| SHA_MHG                 | v0.0.2  | human-external | cancer   | MHG signatures                                             | REMoDL-B      | RNA        | 10.1200/JCO.18.01314                                | filtered by `padj` < 0.05|
+| ENNISHI_DHIT            | v0.0.2  | human-external | cancer   | DHIT signature in BL with MYC and BCL2 rearrangements      | Reddy_2017    | RNA        | 10.1200/JCO.18.01583                                | N/A |
+| LYMPH2CX_DLBCL          | v0.0.2  | human-external | cancer   | NanoString Lymph2Cx DLBCL-ABC/GCB panel                    | Lenz_2008     | RNA        | 10.1056/NEJMoa0802885; 10.1182/blood-2013-11-536433 | N/A |
+| REDDY_DLBCL             | v0.0.2  | human-external | cancer   | DLBCL-ABC/GCB signature from Reddy et al.                  | Reddy_2017    | RNA        | 10.1016/j.cell.2017.09.027                          | N/A |
+| ATKINSO_CPC39           | v0.0.2  | human-internal | cancer   | Common progenitor cell gene signature                      | Silva_2018    | RNA        | N/A                                                 | N/A |
+| SABO_MYC                | v0.0.3  | mouse-external | cancer   | MYC target genes with CHIPseq                              |               | RNA        | 10.1038/nature13537                                 | N/A |
+| ATKINSO_CPC_CLUSTER     | v0.0.2  | mouse-internal | cancer   | Cluster signatures                                         | SC23423       | RNA        | N/A                                                 | `padj` < 0.01, `avg_log2FC` > 0.5, `min.pct` > 0.1           |
+| CHENT_MYC_CLUSTER       | v0.0.2  | mouse-internal | cancer   | Cluster signatures                                         | SC24124       | RNA        | N/A                                                 | `padj` < 0.05, `avg_log2FC` > 0.5, `min.pct` > 0.1           |
+| CHENT_MYC_GENOTYPE      | v0.0.2  | mouse-internal | cancer   | Genotype signatures                                        | SC24124       | RNA        | N/A                                                 | `padj` < 0.05, `avg_log2FC` > 0.5, `min.pct` > 0.1           |
+| CHENT_NOMYC_CLUSTER     | v0.0.2  | mouse-internal | cancer   | Cluster signatures without MYC targets                     | SC24124       | RNA        | N/A                                                 | remove genes from NAKAGAWAR_MYC_RN_MYC_PROMOTER, `padj` < 0.05, `avg_log2FC` > 0.5, `min.pct` > 0.1 |
+| XUA_EFPC                | v0.0.2  | mouse-internal | celltype | Extrafollicular plasma cell signature                      | CRA004574     | RNA        | 10.1038/s41590-022-01397-7                          | `mu_freq` > 0.0075, `padj` < 0.05, `avg_log2FC` > 0.5, `min.pct` > 0.1 |
 
 ## Detailed Index
-Please find relevant gene set information in [mouse](releases/v0.0.2/mouse_index.txt) and [human](releases/v0.0.2/human_index.txt) gene set index files.
+Please find relevant gene set information in [mouse](releases/v0.0.3/mouse_index.txt) and [human](releases/v0.0.3/human_index.txt) gene set index files.
 
 ## Notes
 All cross-species gene symbol conversion are performed with 1 to 1 mapping by [hungms/strpip](https://github.com/hungms/strpip) with version 0.1.3

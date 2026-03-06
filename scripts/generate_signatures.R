@@ -1,4 +1,3 @@
-
 generate_signatures <- function(df, gene_column = "gene", n = NULL, p.thresh = 0.05, fc.thresh = 0.5, pct.thresh = 0.1, direction = "both"){
     
     stopifnot(direction %in% c("both", "up", "down"))
